@@ -23,11 +23,11 @@ $ yarn add stylelint @terminus/stylelint-config-frontend -D
 
 #### 1. Create the file and extend our ruleset
 
-Create a stylelint config file at the root level named `stylelint.config.js` and extend the base ruleset:
+Create a stylelint config file at the root level named `stylelint.config.js` and extend our base ruleset:
 
-```json
-{
-  "extends": "@terminus/stylelint-config-frontend"
+```javascript
+module.exports = {
+  extends: '@terminus/stylelint-config-frontend',
 }
 ```
 

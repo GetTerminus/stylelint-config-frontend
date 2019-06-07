@@ -17,7 +17,7 @@ module.exports = {
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always-single-line',
     'at-rule-semicolon-newline-after': 'always',
-    'block-closing-brace-empty-line-before': 'always-multi-line',
+    'block-closing-brace-empty-line-before': 'never',
     'block-closing-brace-newline-after': [
       'always',
       {
@@ -28,11 +28,10 @@ module.exports = {
       },
     ],
     'block-closing-brace-newline-before': 'always-multi-line',
-    'block-closing-brace-space-after': 'never',
     'block-closing-brace-space-before': 'always-single-line',
     'block-no-empty': true,
     'block-opening-brace-newline-after': 'always-multi-line',
-    'block-opening-brace-newline-before': 'never-multi-line',
+    'block-opening-brace-newline-before': 'never-single-line',
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
     'color-hex-case': 'lower',
@@ -50,13 +49,17 @@ module.exports = {
     'declaration-block-single-line-max-declarations': 1,
     'declaration-block-trailing-semicolon': 'always',
     'declaration-colon-newline-after': 'always-multi-line',
-    'declaration-colon-space-after': 'always',
+    'declaration-colon-space-after': 'always-single-line',
     'declaration-no-important': true,
     'font-family-name-quotes': 'always-where-required',
     'font-family-no-duplicate-names': true,
     'font-family-no-missing-generic-family-keyword': true,
     'font-weight-notation': 'numeric',
-    'function-calc-no-invalid': true,
+    /*
+     * TODO: Turn rule back on once the merged fix is released:
+     * https://github.com/stylelint/stylelint/pull/4046
+     *'function-calc-no-invalid': true,
+     */
     'function-calc-no-unspaced-operator': true,
     'function-comma-space-after': 'always',
     'function-linear-gradient-no-nonstandard-direction': true,
@@ -76,7 +79,6 @@ module.exports = {
     'media-feature-range-operator-space-after': 'always',
     'media-feature-range-operator-space-before': 'always',
     'media-query-list-comma-space-after': 'always',
-    'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
     'no-empty-first-line': true,
@@ -97,7 +99,14 @@ module.exports = {
     'selector-pseudo-class-parentheses-space-inside': 'never',
     'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
-    'selector-pseudo-element-no-unknown': true,
+    'selector-pseudo-element-no-unknown': [
+      true,
+      {
+        'ignorePseudoElements': [
+          'ng-deep',
+        ],
+      },
+    ],
     'selector-type-case': 'lower',
     'shorthand-property-no-redundant-values': true,
     'string-no-newline': true,
@@ -106,20 +115,10 @@ module.exports = {
     'unit-no-unknown': true,
     'value-keyword-case': 'lower',
     'value-list-comma-newline-after': 'always-multi-line',
-    'value-list-comma-space-after': 'always',
+    'value-list-comma-space-after': 'always-single-line',
     'value-list-max-empty-lines': 0,
 
-    // Plugins
-    'at-mixin-argumentless-call-parentheses': 'never',
-    'at-mixin-parentheses-space-before': 'never',
-    'dollar-variable-colon-newline-after': 'always-multi-line',
-    'dollar-variable-colon-space-after': 'at-least-one-space',
-    'double-slash-comment-inline': 'never',
-    'double-slash-comment-whitespace-inside': 'always',
-    'no-duplicate-dollar-variables': true,
-    'operator-no-newline-after': true,
-    'operator-no-newline-before': true,
-    'operator-no-unspaced': true,
+    // Plugin rules
     'order/properties-alphabetical-order': true,
     'plugin/declaration-block-no-ignored-properties': true,
     'plugin/stylelint-no-indistinguishable-colors': true,
@@ -127,24 +126,64 @@ module.exports = {
     'scale-unlimited/declaration-strict-value': [
       [
         'box-shadow',
-        'color',
+        '/^((.+-)?(color))$/',
         'cursor',
-        '/font-*/',
-        '/margin/',
-        '/padding/',
+        '/font/',
+        '/^(margin|padding)(-top|-left|-bottom|-right)?/',
         'z-index',
-        {
-          'ignoreKeywords': [
+      ],
+      {
+        'ignoreFunctions': true,
+        'ignoreKeywords': {
+          '': [
+            'auto',
+            'currentColor',
+            'inherit',
+            'none',
+          ],
+          '/^((.+-)?(color))$/': [
             'currentColor',
             'inherit',
             'transparent',
           ],
+          '/^(margin|padding)(-top|-left|-bottom|-right)?/': [
+            '0',
+            'auto',
+            'none',
+            'unset',
+          ],
+          'z-index': [
+            -1,
+            'auto',
+          ],
         },
-      ],
+      },
     ],
     'scss/at-function-parentheses-space-before': 'never',
-    'scss/at-if-closing-brace-newline-after': true,
-    'selector-nest-combinators': 'always',
-    'selector-no-redundant-nesting-selector': true,
+    'scss/at-if-closing-brace-newline-after': 'always-last-in-chain',
+    'scss/at-mixin-argumentless-call-parentheses': 'never',
+    'scss/at-mixin-parentheses-space-before': 'never',
+    'scss/dollar-variable-colon-newline-after': 'always-multi-line',
+    'scss/dollar-variable-colon-space-after': 'at-least-one-space',
+    'scss/double-slash-comment-inline': 'never',
+    'scss/double-slash-comment-whitespace-inside': 'always',
+    'scss/no-duplicate-dollar-variables': [
+      true,
+      {
+        'ignoreInsideAtRules': [
+          'if',
+          'for',
+        ],
+        'ignoreInside': [
+          'at-rule',
+          'nested-at-rule',
+        ],
+      },
+    ],
+    'scss/operator-no-newline-after': true,
+    'scss/operator-no-newline-before': true,
+    'scss/operator-no-unspaced': true,
+    'scss/selector-nest-combinators': 'always',
+    'scss/selector-no-redundant-nesting-selector': true,
   },
 };
