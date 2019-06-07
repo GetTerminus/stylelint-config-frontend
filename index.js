@@ -133,6 +133,7 @@ module.exports = {
         'z-index',
       ],
       {
+        'disableFix': true,
         'ignoreFunctions': true,
         'ignoreKeywords': {
           '': [
