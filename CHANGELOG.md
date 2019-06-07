@@ -1,3 +1,7 @@
+## <small>1.0.2 (2019-06-07)</small>
+
+* fix: 🐛 disable fix for a rule that has no implemented fixer ([3d4dad7](https://github.com/GetTerminus/stylelint-config-frontend/commit/3d4dad7))
+
 ## <small>1.0.1 (2019-06-07)</small>
 
 * fix: 🐛 update rules after first real-world attempt ([e793292](https://github.com/GetTerminus/stylelint-config-frontend/commit/e793292))
