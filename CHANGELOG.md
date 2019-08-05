@@ -1,3 +1,8 @@
+## 1.1.0 (2019-08-05)
+
+* feat: 🎸 no unknown pseudo classes now allows vert and horz ([fcde6da](https://github.com/GetTerminus/stylelint-config-frontend/commit/fcde6da)), closes [#10](https://github.com/GetTerminus/stylelint-config-frontend/issues/10)
+* chore(deps): bump lodash from 4.17.11 to 4.17.14 ([e535d6e](https://github.com/GetTerminus/stylelint-config-frontend/commit/e535d6e))
+
 ## <small>1.0.2 (2019-06-07)</small>
 
 * fix: 🐛 disable fix for a rule that has no implemented fixer ([3d4dad7](https://github.com/GetTerminus/stylelint-config-frontend/commit/3d4dad7))
