@@ -95,7 +95,15 @@ module.exports = {
     'selector-combinator-space-before': 'always',
     'selector-list-comma-newline-after': 'always',
     'selector-pseudo-class-case': 'lower',
-    'selector-pseudo-class-no-unknown': true,
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        'ignorePseudoClasses': [
+          'horizontal',
+          'vertical',
+        ],
+      },
+    ],
     'selector-pseudo-class-parentheses-space-inside': 'never',
     'selector-pseudo-element-case': 'lower',
     'selector-pseudo-element-colon-notation': 'double',
