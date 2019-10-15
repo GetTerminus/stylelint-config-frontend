@@ -163,6 +163,7 @@ module.exports = {
           ],
           'z-index': [
             -1,
+            1,
             'auto',
           ],
         },
