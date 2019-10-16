@@ -1,3 +1,9 @@
+## <small>1.1.1 (2019-10-16)</small>
+
+* fix(CIRules): allow 1 as a z-index value without a variable ([8abbefa](https://github.com/GetTerminus/stylelint-config-frontend/commit/8abbefa))
+* chore(deps): bump eslint-utils from 1.3.1 to 1.4.2 ([2391d4f](https://github.com/GetTerminus/stylelint-config-frontend/commit/2391d4f))
+* chore: update codeowners ([28808d9](https://github.com/GetTerminus/stylelint-config-frontend/commit/28808d9))
+
 ## 1.1.0 (2019-08-05)
 
 * feat: 🎸 no unknown pseudo classes now allows vert and horz ([fcde6da](https://github.com/GetTerminus/stylelint-config-frontend/commit/fcde6da)), closes [#10](https://github.com/GetTerminus/stylelint-config-frontend/issues/10)
