@@ -15,6 +15,8 @@ A collection of SCSS lint rules for Terminus frontend codebases.
 
 ## Installation
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/GetTerminus/stylelint-config-frontend.svg)](https://greenkeeper.io/)
+
 ```
 $ yarn add stylelint @terminus/stylelint-config-frontend -D
 ```
