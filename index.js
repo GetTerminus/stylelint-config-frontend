@@ -82,7 +82,14 @@ module.exports = {
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
     'no-empty-first-line': true,
-    'no-eol-whitespace': true,
+    'no-eol-whitespace': [
+      true,
+      {
+        'ignore': [
+          'empty-lines',
+        ],
+      },
+    ],
     'no-extra-semicolons': true,
     'number-leading-zero': 'never',
     'number-no-trailing-zeros': true,
