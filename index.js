@@ -55,11 +55,7 @@ module.exports = {
     'font-family-no-duplicate-names': true,
     'font-family-no-missing-generic-family-keyword': true,
     'font-weight-notation': 'numeric',
-    /*
-     * TODO: Turn rule back on once the merged fix is released:
-     * https://github.com/stylelint/stylelint/pull/4046
-     *'function-calc-no-invalid': true,
-     */
+    'function-calc-no-invalid': true,
     'function-calc-no-unspaced-operator': true,
     'function-comma-space-after': 'always',
     'function-linear-gradient-no-nonstandard-direction': true,
