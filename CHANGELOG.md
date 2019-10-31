@@ -1,3 +1,10 @@
+## <small>1.1.2 (2019-10-31)</small>
+
+* chore(Build): update dependencies ([54954f1](https://github.com/GetTerminus/stylelint-config-frontend/commit/54954f1)), closes [#13](https://github.com/GetTerminus/stylelint-config-frontend/issues/13)
+* chore(Build): update docker image to latest UI image ([d3ad0ef](https://github.com/GetTerminus/stylelint-config-frontend/commit/d3ad0ef))
+* fix(CIRules): re-enable calc-no-invalid rule ([1ef5d18](https://github.com/GetTerminus/stylelint-config-frontend/commit/1ef5d18)), closes [#3](https://github.com/GetTerminus/stylelint-config-frontend/issues/3)
+* fix(CIRules): update eol whitespace to ignore empty lines ([bd1c5d2](https://github.com/GetTerminus/stylelint-config-frontend/commit/bd1c5d2))
+
 ## <small>1.1.1 (2019-10-16)</small>
 
 * fix(CIRules): allow 1 as a z-index value without a variable ([8abbefa](https://github.com/GetTerminus/stylelint-config-frontend/commit/8abbefa))
