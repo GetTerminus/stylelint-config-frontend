@@ -5,6 +5,8 @@
 [![MIT License][license-image]][license-url]
 [![NPM version][npm-version-image]][npm-url]
 [![Github release][gh-release-badge]][gh-releases]
+[![Greenkeeper badge][greenkeeper-badge]][greenkeeper-url]
+
 
 A collection of SCSS lint rules for Terminus frontend codebases.
 
@@ -14,6 +16,7 @@ A collection of SCSS lint rules for Terminus frontend codebases.
 
 
 ## Installation
+
 
 ```
 $ yarn add stylelint @terminus/stylelint-config-frontend -D
@@ -64,3 +67,5 @@ module.exports = {
 [semantic-release]:       https://github.com/semantic-release/semantic-release
 [npm-url]:                https://npmjs.org/package/@terminus/stylelint-config-frontend
 [license-url]:            https://github.com/GetTerminus/stylelint-config-frontend/blob/release/LICENSE
+[greenkeeper-badge]:      https://badges.greenkeeper.io/GetTerminus/stylelint-config-frontend.svg
+[greenkeeper-url]:        https://greenkeeper.io/
