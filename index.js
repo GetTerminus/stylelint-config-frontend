@@ -55,7 +55,6 @@ module.exports = {
     'font-family-no-duplicate-names': true,
     'font-family-no-missing-generic-family-keyword': true,
     'font-weight-notation': 'numeric',
-    'function-calc-no-invalid': true,
     'function-calc-no-unspaced-operator': true,
     'function-comma-space-after': 'always',
     'function-linear-gradient-no-nonstandard-direction': true,
