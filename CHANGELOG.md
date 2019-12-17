@@ -1,3 +1,15 @@
+## <small>1.1.3 (2019-12-17)</small>
+
+* fix: readme update to trigger release ([33ad9d2](https://github.com/GetTerminus/stylelint-config-frontend/commit/33ad9d2))
+* chore(deps): bump mixin-deep from 1.3.1 to 1.3.2 ([08db450](https://github.com/GetTerminus/stylelint-config-frontend/commit/08db450))
+* chore(deps): bump mixin-deep from 1.3.1 to 1.3.2 ([fcb44a6](https://github.com/GetTerminus/stylelint-config-frontend/commit/fcb44a6))
+* chore(deps): bump npm from 6.9.0 to 6.13.4 ([940ebc7](https://github.com/GetTerminus/stylelint-config-frontend/commit/940ebc7))
+* chore(package): update dependencies ([25c6c46](https://github.com/GetTerminus/stylelint-config-frontend/commit/25c6c46))
+* chore(package): update lockfile yarn.lock ([fa1252d](https://github.com/GetTerminus/stylelint-config-frontend/commit/fa1252d))
+* chore(package): Update stylelint to the latest version 🚀 (#21) ([5265288](https://github.com/GetTerminus/stylelint-config-frontend/commit/5265288)), closes [#21](https://github.com/GetTerminus/stylelint-config-frontend/issues/21)
+* revert(CIRules): no invalid calc rule removed ([e8b95a6](https://github.com/GetTerminus/stylelint-config-frontend/commit/e8b95a6))
+* docs(readme): add Greenkeeper badge ([a4c4288](https://github.com/GetTerminus/stylelint-config-frontend/commit/a4c4288))
+
 ## <small>1.1.2 (2019-10-31)</small>
 
 * chore(Build): update dependencies ([54954f1](https://github.com/GetTerminus/stylelint-config-frontend/commit/54954f1)), closes [#13](https://github.com/GetTerminus/stylelint-config-frontend/issues/13)
