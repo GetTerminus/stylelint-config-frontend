@@ -1,11 +1,16 @@
 <h1>Terminus stylelint Frontend Configuration</h1>
 
 [![CircleCI][circle-badge]][circle-link]
+[![DavidDM][david-badge]][david-link]
+[![DavidDM Dev][david-dev-badge]][david-link]
+<br>
 [![semantic-release][semantic-release-badge]][semantic-release]
 [![MIT License][license-image]][license-url]
+<br>
 [![NPM version][npm-version-image]][npm-url]
 [![Github release][gh-release-badge]][gh-releases]
-[![Greenkeeper badge][greenkeeper-badge]][greenkeeper-url]
+
+
 
 
 A collection of SCSS lint rules for Terminus frontend codebases.
@@ -69,3 +74,6 @@ module.exports = {
 [license-url]:            https://github.com/GetTerminus/stylelint-config-frontend/blob/release/LICENSE
 [greenkeeper-badge]:      https://badges.greenkeeper.io/GetTerminus/stylelint-config-frontend.svg
 [greenkeeper-url]:        https://greenkeeper.io/
+[david-dev-badge]:        https://david-dm.org/GetTerminus/stylelint-config-frontend/dev-status.svg
+[david-badge]:            https://david-dm.org/GetTerminus/stylelint-config-frontend.svg
+[david-link]:             https://david-dm.org/GetTerminus/stylelint-config-frontend?view=list
