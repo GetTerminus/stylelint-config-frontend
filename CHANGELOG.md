@@ -1,3 +1,9 @@
+## <small>1.1.4 (2020-01-16)</small>
+
+* chore(deps): bump handlebars from 4.1.2 to 4.5.3 ([8c537df](https://github.com/GetTerminus/stylelint-config-frontend/commit/8c537df))
+* chore(package): update lockfile yarn.lock ([3580306](https://github.com/GetTerminus/stylelint-config-frontend/commit/3580306))
+* fix(package): update stylelint-order to version 4.0.0 ([0d120bb](https://github.com/GetTerminus/stylelint-config-frontend/commit/0d120bb))
+
 ## <small>1.1.3 (2019-12-17)</small>
 
 * fix: readme update to trigger release ([33ad9d2](https://github.com/GetTerminus/stylelint-config-frontend/commit/33ad9d2))
