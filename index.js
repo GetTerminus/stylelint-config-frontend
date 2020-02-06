@@ -137,7 +137,6 @@ module.exports = {
       [
         'box-shadow',
         '/^((.+-)?(color))$/',
-        'cursor',
         '/font/',
         '/^(margin|padding)(-top|-left|-bottom|-right)?/',
         'z-index',
