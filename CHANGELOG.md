@@ -1,3 +1,11 @@
+## <small>1.1.5 (2020-02-06)</small>
+
+* fix(CIRules): remove the rule requiring non-inline values ([2af21ee](https://github.com/GetTerminus/stylelint-config-frontend/commit/2af21ee)), closes [#38](https://github.com/GetTerminus/stylelint-config-frontend/issues/38)
+* chore(package): update @semantic-release/github to version 6.0.0 ([a8aba94](https://github.com/GetTerminus/stylelint-config-frontend/commit/a8aba94))
+* chore(package): update husky to version 4.0.2 ([1f22961](https://github.com/GetTerminus/stylelint-config-frontend/commit/1f22961))
+* chore(package): update lockfile yarn.lock ([ae64163](https://github.com/GetTerminus/stylelint-config-frontend/commit/ae64163))
+* chore(package): update lockfile yarn.lock ([75487ed](https://github.com/GetTerminus/stylelint-config-frontend/commit/75487ed))
+
 ## <small>1.1.4 (2020-01-16)</small>
 
 * chore(deps): bump handlebars from 4.1.2 to 4.5.3 ([8c537df](https://github.com/GetTerminus/stylelint-config-frontend/commit/8c537df))
