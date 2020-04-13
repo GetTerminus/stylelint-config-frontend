@@ -11,8 +11,6 @@
 [![Github release][gh-release-badge]][gh-releases]
 
 
-
-
 A collection of SCSS lint rules for Terminus frontend codebases.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
