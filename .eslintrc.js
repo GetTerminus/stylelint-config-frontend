@@ -36,7 +36,7 @@ module.exports = {
     ],
     'quote-props': [
       'error',
-      'always',
+      'consistent-as-needed',
     ],
   },
 };
