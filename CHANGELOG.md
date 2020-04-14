@@ -1,3 +1,12 @@
+## [1.1.6](https://github.com/GetTerminus/stylelint-config-frontend/compare/v1.1.5...v1.1.6) (2020-04-14)
+
+
+### Bug Fixes
+
+* **Build:** remove incorrect package key ([a55ee90](https://github.com/GetTerminus/stylelint-config-frontend/commit/a55ee90))
+* **Build:** update all dependencies ([2094f4a](https://github.com/GetTerminus/stylelint-config-frontend/commit/2094f4a))
+* **package:** update stylelint-scss to version 3.17.0 ([2d0e47d](https://github.com/GetTerminus/stylelint-config-frontend/commit/2d0e47d))
+
 ## <small>1.1.5 (2020-02-06)</small>
 
 * fix(CIRules): remove the rule requiring non-inline values ([2af21ee](https://github.com/GetTerminus/stylelint-config-frontend/commit/2af21ee)), closes [#38](https://github.com/GetTerminus/stylelint-config-frontend/issues/38)
