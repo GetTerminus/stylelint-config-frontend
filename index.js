@@ -1,5 +1,5 @@
 module.exports = {
-  'plugins': [
+  plugins: [
     // https://github.com/hudochenkov/stylelint-order
     'stylelint-order',
     // https://github.com/kristerkari/stylelint-declaration-block-no-ignored-properties
@@ -13,7 +13,7 @@ module.exports = {
     // https://github.com/ierhyna/stylelint-no-indistinguishable-colors
     'stylelint-no-indistinguishable-colors',
   ],
-  'rules': {
+  rules: {
     'at-rule-name-case': 'lower',
     'at-rule-name-space-after': 'always-single-line',
     'at-rule-semicolon-newline-after': 'always',
@@ -22,7 +22,7 @@ module.exports = {
       'always',
       {
         // Needed to avoid conflict with `at-if-closing-brace-newline-after`
-        'ignoreAtRules': [
+        ignoreAtRules: [
           'if',
         ],
       },
@@ -80,7 +80,7 @@ module.exports = {
     'no-eol-whitespace': [
       true,
       {
-        'ignore': [
+        ignore: [
           'empty-lines',
         ],
       },
@@ -100,7 +100,7 @@ module.exports = {
     'selector-pseudo-class-no-unknown': [
       true,
       {
-        'ignorePseudoClasses': [
+        ignorePseudoClasses: [
           'horizontal',
           'vertical',
         ],
@@ -112,7 +112,7 @@ module.exports = {
     'selector-pseudo-element-no-unknown': [
       true,
       {
-        'ignorePseudoElements': [
+        ignorePseudoElements: [
           'ng-deep',
         ],
       },
@@ -142,9 +142,9 @@ module.exports = {
         'z-index',
       ],
       {
-        'disableFix': true,
-        'ignoreFunctions': true,
-        'ignoreKeywords': {
+        disableFix: true,
+        ignoreFunctions: true,
+        ignoreKeywords: {
           '': [
             'auto',
             'currentColor',
@@ -181,11 +181,11 @@ module.exports = {
     'scss/no-duplicate-dollar-variables': [
       true,
       {
-        'ignoreInsideAtRules': [
+        ignoreInsideAtRules: [
           'if',
           'for',
         ],
-        'ignoreInside': [
+        ignoreInside: [
           'at-rule',
           'nested-at-rule',
         ],
