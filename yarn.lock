@@ -7386,10 +7386,10 @@ stylelint-declaration-block-no-ignored-properties@2.3.0:
   dependencies:
     postcss "^7.0.27"
 
-stylelint-declaration-strict-value@1.1.8:
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.1.8.tgz#82a8a593c03950452571b1c8d92547cbd29c545c"
-  integrity sha512-j9L2LA0lEQ2y34unA/hxhq4UZLVlVHYX9PD9HQw3wPILGfJoycYTICeKYZqxi3YfxRDf/LwzMfPeleCKebqvLQ==
+stylelint-declaration-strict-value@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.2.0.tgz#4eec7577e546b0d398aebac3ec442bfc7f30bcbf"
+  integrity sha512-xA+BAnlvPQAuwK1ZetuV4b3zKb8TYvLK/fvfRPsdSsYGwq/D9GVLjICqY+cKEV4TARt+5nubtcM6MjmUTyIKgw==
 
 stylelint-declaration-use-variable@1.7.2:
   version "1.7.2"
