@@ -79,7 +79,7 @@
     "validate-commit-msg": "2.14.0"
   },
   "dependencies": {
-    "stylelint": "13.3.2",
+    "stylelint": "13.3.3",
     "stylelint-declaration-block-no-ignored-properties": "2.3.0",
     "stylelint-declaration-strict-value": "1.1.8",
     "stylelint-declaration-use-variable": "1.7.2",
