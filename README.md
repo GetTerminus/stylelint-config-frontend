@@ -1,5 +1,19 @@
 <h1>Terminus stylelint Frontend Configuration</h1>
 
+---
+
+<h2>:rotating_light: ATTENTION: THIS REPO HAS MOVED :rotating_light:</h2>
+
+We have moved to separately published packages within a monorepo.
+
+Please update any bookmarks to point to the [new repo][new-repo].
+
+NOTE: This package will still be published to the existing NPM package.
+
+<h2>:rotating_light:</h2>
+
+---
+
 [![CircleCI][circle-badge]][circle-link]
 [![DavidDM][david-badge]][david-link]
 [![DavidDM Dev][david-dev-badge]][david-link]
@@ -10,16 +24,13 @@
 [![NPM version][npm-version-image]][npm-url]
 [![Github release][gh-release-badge]][gh-releases]
 
-
 A collection of SCSS lint rules for Terminus frontend codebases.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-
 ## Installation
-
 
 ```
 $ yarn add stylelint @terminus/stylelint-config-frontend -D
@@ -70,8 +81,7 @@ module.exports = {
 [semantic-release]:       https://github.com/semantic-release/semantic-release
 [npm-url]:                https://npmjs.org/package/@terminus/stylelint-config-frontend
 [license-url]:            https://github.com/GetTerminus/stylelint-config-frontend/blob/release/LICENSE
-[greenkeeper-badge]:      https://badges.greenkeeper.io/GetTerminus/stylelint-config-frontend.svg
-[greenkeeper-url]:        https://greenkeeper.io/
 [david-dev-badge]:        https://david-dm.org/GetTerminus/stylelint-config-frontend/dev-status.svg
 [david-badge]:            https://david-dm.org/GetTerminus/stylelint-config-frontend.svg
 [david-link]:             https://david-dm.org/GetTerminus/stylelint-config-frontend?view=list
+[new-repo]:               https://github.com/GetTerminus/terminus-oss/tree/release/libs/stylelint-config-frontend
