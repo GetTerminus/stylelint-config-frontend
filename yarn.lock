@@ -9,13 +9,6 @@
   dependencies:
     "@babel/highlight" "^7.0.0"
 
-"@babel/code-frame@^7.5.5":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.5.5.tgz#bc0782f6d69f7b7d49531219699b988f669a8f9d"
-  integrity sha512-27d4lZoomVyo51VegxI20xZPuSHusqbQag/ztrBC7wegWoQ1nLREPVSKSW8byhTlzTKyNE4ifaTA6lCp7JjpFw==
-  dependencies:
-    "@babel/highlight" "^7.0.0"
-
 "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -39,26 +32,6 @@
     debug "^4.1.0"
     json5 "^2.1.0"
     lodash "^4.17.11"
-    resolve "^1.3.2"
-    semver "^5.4.1"
-    source-map "^0.5.0"
-
-"@babel/core@>=7.2.2":
-  version "7.6.4"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.6.4.tgz#6ebd9fe00925f6c3e177bb726a188b5f578088ff"
-  integrity sha512-Rm0HGw101GY8FTzpWSyRbki/jzq+/PkNQJ+nSulrdY6gFGOsNseCqD6KHRYe2E+EdzuBdr2pxCp6s4Uk6eJ+XQ==
-  dependencies:
-    "@babel/code-frame" "^7.5.5"
-    "@babel/generator" "^7.6.4"
-    "@babel/helpers" "^7.6.2"
-    "@babel/parser" "^7.6.4"
-    "@babel/template" "^7.6.0"
-    "@babel/traverse" "^7.6.3"
-    "@babel/types" "^7.6.3"
-    convert-source-map "^1.1.0"
-    debug "^4.1.0"
-    json5 "^2.1.0"
-    lodash "^4.17.13"
     resolve "^1.3.2"
     semver "^5.4.1"
     source-map "^0.5.0"
@@ -95,16 +68,6 @@
     lodash "^4.17.11"
     source-map "^0.5.0"
     trim-right "^1.0.1"
-
-"@babel/generator@^7.6.3", "@babel/generator@^7.6.4":
-  version "7.6.4"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.6.4.tgz#a4f8437287bf9671b07f483b76e3bb731bc97671"
-  integrity sha512-jsBuXkFoZxk0yWLyGI9llT9oiQ2FeTASmRFE32U+aaDTfoE92t78eroO7PTpU/OrYq38hlcDM6vbfLDaOLy+7w==
-  dependencies:
-    "@babel/types" "^7.6.3"
-    jsesc "^2.5.1"
-    lodash "^4.17.13"
-    source-map "^0.5.0"
 
 "@babel/generator@^7.9.0", "@babel/generator@^7.9.5":
   version "7.9.5"
@@ -228,15 +191,6 @@
     "@babel/traverse" "^7.4.4"
     "@babel/types" "^7.4.4"
 
-"@babel/helpers@^7.6.2":
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.6.2.tgz#681ffe489ea4dcc55f23ce469e58e59c1c045153"
-  integrity sha512-3/bAUL8zZxYs1cdX2ilEE0WobqbCmKWr/889lf2SS0PpDcpEIY8pb1CCyz0pEcX3pEb+MCbks1jIokz2xLtGTA==
-  dependencies:
-    "@babel/template" "^7.6.0"
-    "@babel/traverse" "^7.6.2"
-    "@babel/types" "^7.6.0"
-
 "@babel/helpers@^7.9.0":
   version "7.9.2"
   resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.9.2.tgz#b42a81a811f1e7313b88cba8adc66b3d9ae6c09f"
@@ -269,11 +223,6 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.4.5.tgz#04af8d5d5a2b044a2a1bffacc1e5e6673544e872"
   integrity sha512-9mUqkL1FF5T7f0WDFfAoDdiMVPWsdD1gZYzSnaXsxUCUqzuch/8of9G3VUSNiZmMBoRxT3neyVsqeiL/ZPcjew==
 
-"@babel/parser@^7.6.0", "@babel/parser@^7.6.3", "@babel/parser@^7.6.4":
-  version "7.6.4"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.6.4.tgz#cb9b36a7482110282d5cb6dd424ec9262b473d81"
-  integrity sha512-D8RHPW5qd0Vbyo3qb+YjO5nvUVRTXFLQ/FsDxJU2Nqz4uB5EnUN0ZQSEYpvTIbRuttig1XbHWU5oMeQwQSAA+A==
-
 "@babel/parser@^7.8.6", "@babel/parser@^7.9.0":
   version "7.9.4"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.9.4.tgz#68a35e6b0319bbc014465be43828300113f2f2e8"
@@ -294,15 +243,6 @@
     "@babel/code-frame" "^7.0.0"
     "@babel/parser" "^7.4.4"
     "@babel/types" "^7.4.4"
-
-"@babel/template@^7.6.0":
-  version "7.6.0"
-  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.6.0.tgz#7f0159c7f5012230dad64cca42ec9bdb5c9536e6"
-  integrity sha512-5AEH2EXD8euCk446b7edmgFdub/qfH1SN6Nii3+fyXP807QRx9Q73A2N5hNwRRslC2H9sNzaFhsPubkS4L8oNQ==
-  dependencies:
-    "@babel/code-frame" "^7.0.0"
-    "@babel/parser" "^7.6.0"
-    "@babel/types" "^7.6.0"
 
 "@babel/template@^7.8.3", "@babel/template@^7.8.6":
   version "7.8.6"
@@ -328,21 +268,6 @@
     globals "^11.1.0"
     lodash "^4.17.11"
 
-"@babel/traverse@^7.6.2", "@babel/traverse@^7.6.3":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.6.3.tgz#66d7dba146b086703c0fb10dd588b7364cec47f9"
-  integrity sha512-unn7P4LGsijIxaAJo/wpoU11zN+2IaClkQAxcJWBNCMS6cmVh802IyLHNkAjQ0iYnRS3nnxk5O3fuXW28IMxTw==
-  dependencies:
-    "@babel/code-frame" "^7.5.5"
-    "@babel/generator" "^7.6.3"
-    "@babel/helper-function-name" "^7.1.0"
-    "@babel/helper-split-export-declaration" "^7.4.4"
-    "@babel/parser" "^7.6.3"
-    "@babel/types" "^7.6.3"
-    debug "^4.1.0"
-    globals "^11.1.0"
-    lodash "^4.17.13"
-
 "@babel/traverse@^7.8.6", "@babel/traverse@^7.9.0":
   version "7.9.5"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.9.5.tgz#6e7c56b44e2ac7011a948c21e283ddd9d9db97a2"
@@ -365,15 +290,6 @@
   dependencies:
     esutils "^2.0.2"
     lodash "^4.17.11"
-    to-fast-properties "^2.0.0"
-
-"@babel/types@^7.6.0", "@babel/types@^7.6.3":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.6.3.tgz#3f07d96f854f98e2fbd45c64b0cb942d11e8ba09"
-  integrity sha512-CqbcpTxMcpuQTMhjI37ZHVgjBkysg5icREQIEZ0eG1yCNwg3oy+5AaLiOKmjsCj6nqOsa6Hf0ObjRVwokb7srA==
-  dependencies:
-    esutils "^2.0.2"
-    lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
 "@babel/types@^7.8.3", "@babel/types@^7.8.6", "@babel/types@^7.9.0", "@babel/types@^7.9.5":
@@ -1069,7 +985,7 @@ autoprefixer@^9.0.0:
     postcss "^7.0.14"
     postcss-value-parser "^3.3.1"
 
-autoprefixer@^9.5.1, autoprefixer@^9.7.6:
+autoprefixer@^9.7.6:
   version "9.7.6"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-9.7.6.tgz#63ac5bbc0ce7934e6997207d5bb00d68fa8293a4"
   integrity sha512-F7cYpbN7uVVhACZTeeIeealwdGM6wMtfWARVLTy5xmKtgVdBNJvbDRoCK3YO1orcs7gv/KwYlb3iXwu9Ug9BkQ==
@@ -1882,7 +1798,7 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-cosmiconfig@^5.0.0, cosmiconfig@^5.2.0:
+cosmiconfig@^5.0.0:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.2.1.tgz#040f726809c591e77a17c0a3626ca45b4f168b1a"
   integrity sha512-H65gsXo1SKjf8zmrJ67eJk8aIRKV5ff2D4uKZIBZShbhGSpEmsQOPW/SKMKYhSTrqR7ufy6RP69rPogdaPh/kA==
@@ -3103,7 +3019,7 @@ globby@^11.0.0:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-globby@^9.0.0, globby@^9.2.0:
+globby@^9.0.0:
   version "9.2.0"
   resolved "https://registry.yarnpkg.com/globby/-/globby-9.2.0.tgz#fd029a706c703d29bdd170f4b6db3a3f7a7cb63d"
   integrity sha512-ollPHROa5mcxDEkwg6bPt3QbEf4pDQSNtd6JPL1YvOvAo/7/0VAm9TccUeoTmarjPw4pfUthSCqcyfNB1I3ZSg==
@@ -3289,7 +3205,7 @@ html-tags@^2.0.0:
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-2.0.0.tgz#10b30a386085f43cede353cc8fa7cb0deeea668b"
   integrity sha1-ELMKOGCF9Dzt41PMj6fLDe7qZos=
 
-html-tags@^3.0.0, html-tags@^3.1.0:
+html-tags@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-3.1.0.tgz#7b5e6f7e665e9fb41f30007ed9e0d41e97fb2140"
   integrity sha512-1qYz89hW3lFDEazhjW0yVAV87lw8lVkrJocr72XmBkMKsoSVJCQx3W8BXsC7hO2qAt8BoVjYjtAcZ9perqGnNg==
@@ -3427,7 +3343,7 @@ ignore@^5.0.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.2.tgz#e28e584d43ad7e92f96995019cc43b9e1ac49558"
   integrity sha512-vdqWBp7MyzdmHkkRWV5nY+PfGRbYbahfuvsBCh277tq+w9zyNi7h5CYJCK0kmzti9kU+O/cB7sE8HvKv6aXAKQ==
 
-ignore@^5.0.6, ignore@^5.1.4:
+ignore@^5.1.4:
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.4.tgz#84b7b3dbe64552b6ef0eca99f6743dbec6d97adf"
   integrity sha512-MzbUSahkTW1u7JpKKjY7LCARd1fU5W2rLdxlM4kdkayuCwZImjkpluF9CM1aLewYJguPDqewLam18Y6AU69A8A==
@@ -4099,11 +4015,6 @@ known-css-properties@^0.11.0:
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.11.0.tgz#0da784f115ea77c76b81536d7052e90ee6c86a8a"
   integrity sha512-bEZlJzXo5V/ApNNa5z375mJC6Nrz4vG43UgcSCrg2OHC+yuB6j0iDSrY7RQ/+PRofFB03wNIIt9iXIVLr4wc7w==
 
-known-css-properties@^0.16.0:
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.16.0.tgz#3f0597214db11a460df77cd44bcb39e263b9da6c"
-  integrity sha512-0g5vDDPvNnQk7WM/aE92dTDxXJoOE0biiIcUb3qkn/F6h/ZQZPlZIbE2XSXH2vFPfphkgCxuR2vH6HHnobEOaQ==
-
 known-css-properties@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/known-css-properties/-/known-css-properties-0.18.0.tgz#d6e00b56ee1d5b0d171fd86df1583cfb012c521f"
@@ -4639,7 +4550,7 @@ mathml-tag-names@^2.0.1:
   resolved "https://registry.yarnpkg.com/mathml-tag-names/-/mathml-tag-names-2.1.1.tgz#6dff66c99d55ecf739ca53c492e626f1d12a33cc"
   integrity sha512-pWB896KPGSGkp1XtyzRBftpTzwSOL0Gfk0wLvxt4f2mgzjY19o0LxJ3U25vNWTzsh7da+KTbuXQoQ3lOJZ8WHw==
 
-mathml-tag-names@^2.1.0, mathml-tag-names@^2.1.3:
+mathml-tag-names@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/mathml-tag-names/-/mathml-tag-names-2.1.3.tgz#4ddadd67308e780cf16a47685878ee27b736a0a3"
   integrity sha512-APMBEanjybaPzUrfqU0IMU5I0AswKMH7k8OTLs0vvV4KZpExkTkY87nR/zpbuTPj+gARop7aGUbl11pnDfW6xg==
@@ -5910,13 +5821,6 @@ postcss-jsx@^0.36.0:
   dependencies:
     "@babel/core" ">=7.1.0"
 
-postcss-jsx@^0.36.3:
-  version "0.36.3"
-  resolved "https://registry.yarnpkg.com/postcss-jsx/-/postcss-jsx-0.36.3.tgz#c91113eae2935a1c94f00353b788ece9acae3f46"
-  integrity sha512-yV8Ndo6KzU8eho5mCn7LoLUGPkXrRXRjhMpX4AaYJ9wLJPv099xbtpbRQ8FrPnzVxb/cuMebbPR7LweSt+hTfA==
-  dependencies:
-    "@babel/core" ">=7.2.2"
-
 postcss-less@^3.1.0, postcss-less@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/postcss-less/-/postcss-less-3.1.4.tgz#369f58642b5928ef898ffbc1a6e93c958304c5ad"
@@ -5962,7 +5866,7 @@ postcss-resolve-nested-selector@^0.1.1:
   resolved "https://registry.yarnpkg.com/postcss-resolve-nested-selector/-/postcss-resolve-nested-selector-0.1.1.tgz#29ccbc7c37dedfac304e9fff0bf1596b3f6a0e4e"
   integrity sha1-Kcy8fDfe36wwTp//C/FZaz9qDk4=
 
-postcss-safe-parser@^4.0.0, postcss-safe-parser@^4.0.1:
+postcss-safe-parser@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/postcss-safe-parser/-/postcss-safe-parser-4.0.1.tgz#8756d9e4c36fdce2c72b091bbc8ca176ab1fcdea"
   integrity sha512-xZsFA3uX8MO3yAda03QrG3/Eg1LN3EPfjjf07vke/46HERLZyHrTsQ9E1r1w1W//fWEhtYNndo2hQplN2cVpCQ==
@@ -5984,7 +5888,7 @@ postcss-sass@^0.3.5:
     gonzales-pe "^4.2.3"
     postcss "^7.0.1"
 
-postcss-sass@^0.4.1, postcss-sass@^0.4.4:
+postcss-sass@^0.4.4:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/postcss-sass/-/postcss-sass-0.4.4.tgz#91f0f3447b45ce373227a98b61f8d8f0785285a3"
   integrity sha512-BYxnVYx4mQooOhr+zer0qWbSPYnarAy8ZT7hAQtbxtgVf8gy+LSLT/hHGe35h14/pZDTw1DsxdbrwxBN++H+fg==
@@ -7417,12 +7321,10 @@ stylelint-declaration-strict-value@1.1.8:
   resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.1.8.tgz#82a8a593c03950452571b1c8d92547cbd29c545c"
   integrity sha512-j9L2LA0lEQ2y34unA/hxhq4UZLVlVHYX9PD9HQw3wPILGfJoycYTICeKYZqxi3YfxRDf/LwzMfPeleCKebqvLQ==
 
-stylelint-declaration-use-variable@1.7.2:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-use-variable/-/stylelint-declaration-use-variable-1.7.2.tgz#476b2959ed062c407e1d3d507e33fb2dfe05113d"
-  integrity sha512-mZgrK7VCx7TYSaZbhWgcdsXxmNhlTkOza3pd2ad+sPNQWWP41R6vlRUonGWVc8BNcBXRSXPTAbLgieq1BXIGcQ==
-  dependencies:
-    stylelint "11.1.1"
+stylelint-declaration-use-variable@1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-use-variable/-/stylelint-declaration-use-variable-1.7.3.tgz#14fd0d3faa0a017b3dc258eec38cd5fcefc8ab90"
+  integrity sha512-6aH9aJcjT4QAzwgqcE+0td507lqBeSZGWbRf8nX7VJRNm8SQT//b2uoshQ4sNxKfJBH3S8RUWeVP37DgCjzZmQ==
 
 stylelint-no-indistinguishable-colors@1.3.0:
   version "1.3.0"
@@ -7458,60 +7360,6 @@ stylelint-selector-no-empty@1.0.7:
   integrity sha512-407THCBbmfiD7oDv1HmWJiiQOhL8zOLxdxHofTlXrHe3jmxhGJIQLskQddv7wsOi9p/8NK2CaCUn9aOLfEb5Wg==
   dependencies:
     stylelint "^9.2.1"
-
-stylelint@11.1.1:
-  version "11.1.1"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-11.1.1.tgz#6dbbb348036576ac6b033ddfedba72a877c1d6bb"
-  integrity sha512-Vx6TAJsxG6qksiFvxQTKriQhp1CqUWdpTDITEkAjTR+l+8Af7qNlvrUDXfpuFJgXh/ayF8xdMSKE+SstcsPmMA==
-  dependencies:
-    autoprefixer "^9.5.1"
-    balanced-match "^1.0.0"
-    chalk "^2.4.2"
-    cosmiconfig "^5.2.0"
-    debug "^4.1.1"
-    execall "^2.0.0"
-    file-entry-cache "^5.0.1"
-    get-stdin "^7.0.0"
-    global-modules "^2.0.0"
-    globby "^9.2.0"
-    globjoin "^0.1.4"
-    html-tags "^3.0.0"
-    ignore "^5.0.6"
-    import-lazy "^4.0.0"
-    imurmurhash "^0.1.4"
-    known-css-properties "^0.16.0"
-    leven "^3.1.0"
-    lodash "^4.17.14"
-    log-symbols "^3.0.0"
-    mathml-tag-names "^2.1.0"
-    meow "^5.0.0"
-    micromatch "^4.0.0"
-    normalize-selector "^0.2.0"
-    postcss "^7.0.14"
-    postcss-html "^0.36.0"
-    postcss-jsx "^0.36.3"
-    postcss-less "^3.1.4"
-    postcss-markdown "^0.36.0"
-    postcss-media-query-parser "^0.2.3"
-    postcss-reporter "^6.0.1"
-    postcss-resolve-nested-selector "^0.1.1"
-    postcss-safe-parser "^4.0.1"
-    postcss-sass "^0.4.1"
-    postcss-scss "^2.0.0"
-    postcss-selector-parser "^3.1.0"
-    postcss-syntax "^0.36.2"
-    postcss-value-parser "^4.0.2"
-    resolve-from "^5.0.0"
-    signal-exit "^3.0.2"
-    slash "^3.0.0"
-    specificity "^0.4.1"
-    string-width "^4.1.0"
-    strip-ansi "^5.2.0"
-    style-search "^0.1.0"
-    sugarss "^2.0.0"
-    svg-tags "^1.0.0"
-    table "^5.2.3"
-    v8-compile-cache "^2.1.0"
 
 stylelint@13.3.2:
   version "13.3.2"
